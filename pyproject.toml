@@ -1,0 +1,13 @@
+[project]
+name = "onshore"
+version = "0.1.0"
+description = "Onshore client for Python"
+requires-python = ">=3.9"
+dependencies = ["cryptography>=42"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["onshore"]
