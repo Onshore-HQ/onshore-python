@@ -3,6 +3,8 @@ name = "onshore"
 version = "0.1.0"
 description = "Onshore client for Python"
 requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+readme = "README.md"
 dependencies = ["cryptography>=42"]
 
 [build-system]
